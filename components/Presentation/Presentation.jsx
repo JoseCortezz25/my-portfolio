@@ -3,7 +3,7 @@ import styles from "./Presentation.module.css";
 
 const Presentation = () => {
   return (
-    <section className={styles.Presentation}>
+    <section className={styles.Presentation} role="Sección de presentación personal">
       <h1>Hola a todos ✌</h1>
       <div className={styles.Presentation__content}>
         <div className={styles.Presentation__principal}>

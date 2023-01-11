@@ -30,12 +30,25 @@ body {
   --blue-color: #3282B8;
   --light-blue-color: #BBE1FA;
 
-  --principal-title-font: 35px;
+  --principal-title-font: 38px;
+  --second-title-font: 30px;
   --title-font: 22px;
   --subtitle-font: 18;
   --pd-default: 15px 25px;
+  --pd-square: 10px 10px;
   --border-radius-default: 10px;
 
   --mb-default: 20px;
   --mt-large: 40px;
+
+  --ts-soft: 120ms ease-in-out;
+}
+
+.second-title {
+  font-size: var(--second-title-font);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: var(--mt-large);
+  border-left: 2px solid var(--white-color);
+  padding-left: 17px;
 }
