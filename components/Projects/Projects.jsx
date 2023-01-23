@@ -1,9 +1,10 @@
-import React from "react";
 import iconLink from '../../public/static/icons/link.svg'
 import styles from "./Projects.module.css";
 import Image from "next/image";
 
 const Projects = () => {
+
+
   return (
     <section className={styles.Projects} role="sección de proyectos personales">
       <h2 className="second-title">Proyectos personales</h2>
