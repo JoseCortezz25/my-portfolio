@@ -10,7 +10,6 @@ const Header = () => {
   console.log("toggle", toggle);
   return (
     <header className={styles.header}>
-      {/* <nav className={`${styles.nav} ${styles.container}`}> */}
       <nav className={`${styles.nav} container`}>
         <a href="" className={styles.nav__logo}>
           Alfonso
