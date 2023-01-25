@@ -6,6 +6,7 @@
   z-index: var(--z-fixed);
   background-color: var(--body-color);
   border-top: 2px solid var(--title-color);
+  border-bottom: 1px solid var(--title-color);
 }
 
 .nav {
@@ -109,6 +110,10 @@
   .nav__toggle {
     width: 27px;
     display: block;
+  }
+
+  .nav__link {
+    text-align: center;
   }
 }
 

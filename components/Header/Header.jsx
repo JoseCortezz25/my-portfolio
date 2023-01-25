@@ -43,12 +43,12 @@ const Header = () => {
             </li>
             <li className={styles.nav__item}>
               <a href="#projects" className={styles.nav__link}>
-                Proyectos
+                Proyectos Personales
               </a>
             </li>
             <li className={styles.nav__item}>
               <a href="#contact" className={styles.nav__link}>
-                Proyectos
+                Contacto
               </a>
             </li>
           </ul>

@@ -8,7 +8,7 @@ const ScrollDown = () => {
     <div className={styles.home__scroll}>
       <a href="#about" className={`${styles['home__scroll-button']} button--flex`}>
         <Image src={downIcon} alt="asdas" />
-        <span className="nome__scroll-name">Scroll down</span>
+        <span className={`${styles['home__scroll-name']}`}>Scroll down</span>
       </a>
     </div>
   );

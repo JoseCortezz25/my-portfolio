@@ -7,10 +7,10 @@ import styles from './Presentation.module.css'
 const Social = () => {
   return (
     <div className={styles.home__social}>
-      <a href="" className={styles['home__social-icon']} target="_blank">
+      <a href="https://github.com/JoseCortezz25" className={styles['home__social-icon']} target="_blank" rel="noreferrer">
         <Image src={githubIcon} alt="" />
       </a>
-      <a href="" className={styles['home__social-icon']} target="_blank">
+      <a href="https://www.linkedin.com/in/alfonso-chavarro-cortes-882b41240/" className={styles['home__social-icon']} target="_blank" rel="noreferrer">
         <Image src={linkedinIcon} alt="" />
       </a>
     </div>

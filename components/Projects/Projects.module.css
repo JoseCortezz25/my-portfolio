@@ -1,52 +1,60 @@
 .Projects {
   width: 100%;
-
-  /* border: 1px solid red; */
 }
 
 .Projects__feed {
-  width: 100%;
-  
-  /* border: 1px solid blue; */
+  width: 100%; 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 35px;
 }
 
+.CardProject {
+  background-color: var(--container-color);
+  border-radius: var(--mb-1);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  padding:  var(--mb-1);
+
+  transition: transform var(--ts-soft);
+}
+
+.CardProject img {
+  border-radius: var(--mb-1-5);
+}
+
 .CardProjects__header {
   width: 100%;
-  height: 300px;
+  height: 250px;
+  margin-bottom: var(--mb-1);
 }
 
 .CardProjects__header img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform var(--ts-soft);
 }
 
-.CardProjects__header img:hover {
+.CardProject:hover {
   transform: scale(105%);
 }
 
 .CardProjects__body {
-  padding: var(--pd-default);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  text-transform: uppercase;
 }
 
-.CardProject {
-  background-color: var(--dark-gray-color);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+.CardProjects__body h3 {
+  font-size: var(--normal-font-size);
+}
+
+.CardProjects__body span {
+  font-weight: var(--font-medium);
 }
 
 .btnExternal {
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 25px;
+  max-height: 25px;
   display: inline-block;
   cursor: pointer;
   transition: transform var(--ts-soft);
@@ -62,4 +70,37 @@
 
 .btnExternal:hover {
   transform: scale(125%);
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .Projects {
+    margin-left: 0px;
+    /* border: 1px solid red; */
+  }
+
+  .Projects__feed {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CardProject {
+    min-width: 430px;
+    max-width: 430px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .CardProject {
+    min-width: inherit;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
 }
