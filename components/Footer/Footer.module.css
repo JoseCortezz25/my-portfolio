@@ -5,12 +5,14 @@
 }
 
 .footer__container {
-  padding: 2rem 0 6rem;
+  padding: 1.3rem 0 4rem;
 }
 
 .footer__title,
 .footer__link {
   color: var(--title-color);
+  text-align: center;
+  margin-bottom: var(--mb-1);
 }
 
 .footer_title {
@@ -53,6 +55,8 @@
   margin-top: 4.5rem;
   color: var(--title-color);
   text-align: center;
+  margin: auto;
+  margin-top: var(--mb-1);
   font-size: var(--smaller-font-size);
 }
 

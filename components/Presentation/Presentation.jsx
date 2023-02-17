@@ -13,7 +13,7 @@ const Presentation = () => {
           <div className={styles.home__img}> </div>
           <Information />
         </div>
-        <ScrollDown />
+        {/* <ScrollDown /> */}
       </div>
     </section>
   );

@@ -16,6 +16,7 @@
   padding:  var(--mb-1);
 
   transition: transform var(--ts-soft);
+  cursor: pointer;
 }
 
 .CardProject img {

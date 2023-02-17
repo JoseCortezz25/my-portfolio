@@ -32,23 +32,18 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.nav__item}>
-              <a href="#about" className={styles.nav__link}>
-                Acerca de mi
-              </a>
-            </li>
-            <li className={styles.nav__item}>
               <a href="#skills" className={styles.nav__link}>
                 Skills
               </a>
             </li>
             <li className={styles.nav__item}>
               <a href="#projects" className={styles.nav__link}>
-                Proyectos Personales
+                Proyectos
               </a>
             </li>
             <li className={styles.nav__item}>
-              <a href="#contact" className={styles.nav__link}>
-                Contacto
+              <a href="#experience" className={styles.nav__link}>
+              Experiencia
               </a>
             </li>
           </ul>

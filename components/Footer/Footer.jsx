@@ -25,6 +25,11 @@ const Footer = () => {
               Proyectos
             </a>
           </li>
+          <li>
+            <a href="#experience" className={styles.footer__link}>
+            Experiencia
+            </a>
+          </li>
         </ul>
         <div className={`${styles.footer__social}`}>
           {" "}
@@ -45,7 +50,7 @@ const Footer = () => {
             <Image src={linkedinIcon} alt="" />
           </a>
         </div>
-        <div className="footer__copy">Hecho con amor y café. ❤☕ </div>
+        <div className={styles.footer__copy}>Hecho con amor y café. ❤☕ </div>
       </div>
     </footer>
   );
