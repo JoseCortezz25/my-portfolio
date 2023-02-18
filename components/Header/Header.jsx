@@ -8,7 +8,6 @@ import Link from "next/link";
 const Header = () => {
   const [toggle, showMenu] = useState(false);
 
-  console.log("toggle", toggle);
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
