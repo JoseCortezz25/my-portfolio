@@ -17,10 +17,10 @@ const Information = () => {
         habilidades y enfrentar nuevos desafíos.
       </p>
       <a
-        href="../../public/static/resume.pdf"
-        download
-        // download="../../public/static/CV2 - Alfonso José Chavarro Cortes.pdf"
+        href="https://drive.google.com/file/d/1_lWkwaeJVoUhar98QXv90NtSlGKMFPhc/view?usp=sharing"
         className={`button button--flex`}
+        target="_blank" 
+        rel="noreferrer"
       >
         Descargar CV
         <Image src={downloadIcon} alt="" />

@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id: "1",
     name: "RegEx Wizard",
     description: "RegEx Wizard es una aplicación de generación de expresiones regulares simple y fácil de usar, que permite generar expresiones regulares a partir de prompts escritos en lenguaje natural o pasar una expresión regular para que la aplicación explique su significado. Esta aplicación fue desarrollada con React, usando React Hooks y Axios, y cuenta con capacidad de adaptarse a diferentes dimensiones de pantalla. El proyecto hace uso de la API de OpenAI para la generación de expresiones regulares y su explicación.",
     summary: "Generador de expresiones regulares a partir de prompts escritos en lenguaje natural.",
@@ -13,6 +14,7 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/regex-wizard" 
   },
   {
+    id: "2",
     name: "PokeRedux",
     description: "Una aplicación web permite a los usuarios ver las características de los Pokemones, compararlos, y filmarlos mediante sus tipos. La información se obtiene de la API de Pokemon, la cual brinda información actualizada y precisa sobre los Pokemones. La aplicación fue desarrollada utilizando React y Redux como el encargado de manejar el estado global. El usuario puede buscar y seleccionar un Pokemon de la lista y ver sus características detalladas, como su tipo, habilidades, stats y otras informaciones. También es posible comparar dos Pokemones para ver sus diferencias y similitudes.",
     summary: "Aplicación que muestra información sobre pokemones haciendo uso de la PokeAPI y permite la comparación entre ellos.",
@@ -25,6 +27,7 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/pokeredux"
   },
   {
+    id: "3",
     name: "To-Do list Machine",
     description: "Esta aplicación web es una herramienta para llevar un seguimiento de tareas pendientes y lograr una mayor organización en el día a día. A su vez, las tareas son filtradas de acuerdo si fueron completadas o siguen pendientes. Desarrollada con React, utiliza hooks para brindar una experiencia de usuario intuitiva y eficiente. Además, el local storage se utiliza para almacenar las tareas y mantenerlas disponibles, incluso después de cerrar la página web.",
     summary: "Una aplicación de To Do,, donde clasifica las tareas por pendientes o realizadas.",
@@ -38,6 +41,7 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/todo-list-machine"
   },
   {
+    id: "4",
     name: "Where in the world?",
     description: "Esta aplicación permite a los usuarios visualizar información detallada de los países del mundo, incluyendo la población, bandera, capital, idioma, moneda y más. Con un buscador interactivo, los usuarios pueden buscar y seleccionar un país específico para ver su información detallada. A su vez, cuenta con modo claro y oscuro en su interfaz. La aplicación fue desarrollada utilizando Angular, hace uso de la API proveída por REST Countries y cuenta con un diseño responsive adaptado a diferentes dimensiones de pantalla.",
     summary: "Sitio web con una lista completa de todos los países del mundo, incluyendo información relevante sobre cada uno.",
@@ -50,6 +54,7 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/where-in-the-world-app"
   },
   {
+    id: "5",
     name: "Simple Weather App",
     description: "Aplicación web que muestra el pronóstico del tiempo en cualquier ciudad del mundo. La información se obtiene de la API de Open Weather Map, la cual brinda información actualizada y precisa sobre la temperatura, humedad, viento y otros aspectos meteorológicos. La aplicación fue desarrollada utilizando Next.js",
     summary: "Página que proporciona información meteorológica específica para cada ciudad.",
@@ -62,3 +67,73 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/SimpleWeatherApp"
   },
 ]
+
+export const tools = [
+  {
+    id: "1",
+    name: "VS Code",
+  },
+  {
+    id: "2",
+    name: "Git",
+  },
+  {
+    id: "3",
+    name: "Github",
+  },
+  {
+    id: "4",
+    name: "Hyper Terminal",
+  },
+  {
+    id: "5",
+    name: "Notion",
+  },
+  {
+    id: "6",
+    name: "Figma",
+  },
+  {
+    id: "7",
+    name: "Postman",
+  },
+];
+
+export const languages = [
+  {
+    id: "1",
+    name: "JavaScript (ES6+)",
+  },
+  {
+    id: "2",
+    name: "HTML",
+  },
+  {
+    id: "3",
+    name: "CSS",
+  },
+  {
+    id: "4",
+    name: "React",
+  },
+  {
+    id: "5",
+    name: "SASS",
+  },
+  {
+    id: "6",
+    name: "NodeJS",
+  },
+  {
+    id: "7",
+    name: "Express",
+  },
+  {
+    id: "8",
+    name: "TypeScript",
+  },
+  {
+    id: "9",
+    name: "Python",
+  },
+];

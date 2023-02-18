@@ -1,9 +1,12 @@
 .Projects {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Projects__feed {
-  width: 100%; 
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 35px;
@@ -13,7 +16,7 @@
   background-color: var(--container-color);
   border-radius: var(--mb-1);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-  padding:  var(--mb-1);
+  padding: var(--mb-1);
 
   transition: transform var(--ts-soft);
   cursor: pointer;
@@ -35,14 +38,10 @@
   object-fit: cover;
 }
 
-.CardProject:hover {
-  transform: scale(105%);
-}
-
 .CardProjects__body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 15%;
+  justify-items: center;
 }
 
 .CardProjects__body h3 {
@@ -53,6 +52,15 @@
   font-weight: var(--font-medium);
 }
 
+.CardProjects__body div h3 {
+  font-size: var(--h3-font-size);
+}
+
+.CardProjects__body div p {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
 .btnExternal {
   max-width: 25px;
   max-height: 25px;
@@ -61,7 +69,7 @@
   transition: transform var(--ts-soft);
 
   background-color: transparent;
-  border:none;
+  border: none;
 }
 
 .btnExternal img {
@@ -74,12 +82,14 @@
 }
 
 @media screen and (max-width: 992px) {
+  .Projects__feed {
+    padding: 0 var(--mb-1-5) 0 var(--mb-1-5);
+  }  
 }
 
 @media screen and (max-width: 768px) {
   .Projects {
     margin-left: 0px;
-    /* border: 1px solid red; */
   }
 
   .Projects__feed {
@@ -92,6 +102,22 @@
     max-width: 430px;
     margin: auto;
   }
+
+  .CardProjects__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardProjects__body img {
+    margin-top: var(--mb-1);
+  }
+
+  .btnExternal {
+    max-width: 30px;
+    max-height: 30px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -103,5 +129,4 @@
 }
 
 @media screen and (max-width: 350px) {
-
 }

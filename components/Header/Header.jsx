@@ -3,6 +3,7 @@ import Image from "next/image";
 import menuIcon from "../../public/static/icons/menu.svg";
 import closeIcon from "../../public/static/icons/close.svg";
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 const Header = () => {
   const [toggle, showMenu] = useState(false);
@@ -11,9 +12,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
-        <a href="" className={styles.nav__logo}>
+        <Link href="/" className={styles.nav__logo}>
           Alfonso
-        </a>
+        </Link>
 
         <div
           className={
@@ -22,7 +23,7 @@ const Header = () => {
               : `${styles.nav__menu}`
           }
         >
-          <ul className={`${styles.nav__list} grid`}>
+          <ul className={`${styles.nav__list}`}>
             <li className={styles.nav__item}>
               <a
                 href="#home"

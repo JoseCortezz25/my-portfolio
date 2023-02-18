@@ -6,7 +6,7 @@ import { projects } from "../../helpers/data";
 const Projects = () => {
   return (
     <section
-      className={`${styles.Projects} container`}
+      className={`${styles.Projects} section`}
       role="sección de proyectos personales"
       id="projects"
     >
@@ -23,7 +23,10 @@ const Projects = () => {
               />
             </div>
             <div className={styles.CardProjects__body}>
-              <h3>{project.name}</h3>
+              <div>
+                <h3>{project.name}</h3>
+                <p>{project.summary}</p>
+              </div>
               <a href={project.repo} target="_blank" rel="noreferrer">
                 <button className={styles.btnExternal}>
                   <Image
@@ -35,21 +38,6 @@ const Projects = () => {
             </div>
           </div>
         ))}
-
-        {/* <div className={styles.CardProject}>
-          <div className={styles.CardProjects__header}>
-            <img src="https://via.placeholder.com/300%" />
-          </div>
-          <div className={styles.CardProjects__body}>
-            <h3>Robot aspirador inteligente</h3>
-            <button className={styles.btnExternal}>
-              <Image
-                src={iconLink}
-                alt="Icono de flecha que indica un enlace para redirigir a otra página"
-              />
-            </button>
-          </div>
-        </div> */}
       </div>
     </section>
   );
