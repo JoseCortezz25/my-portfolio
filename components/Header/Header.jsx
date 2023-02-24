@@ -12,7 +12,7 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
         <Link href="/" className={styles.nav__logo}>
-          Alfonso
+          <p>Alfonso</p>
         </Link>
 
         <div
