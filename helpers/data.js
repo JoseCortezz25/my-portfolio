@@ -71,6 +71,21 @@ export const projects = [
     repo: "https://github.com/JoseCortezz25/SimpleWeatherApp",
     page: "https://simple-weather-app-cyan.vercel.app/"
   },
+  {
+    id: "6",
+    name: "Dictionary App",
+    description: "Aplicación web que permite buscar el significado de cualquier palabra en inglés. La información se obtiene de una API pública, la cual brinda definiciones claras, pronunciación y ejemplos de uso de las palabras. La aplicación fue desarrollada utilizando React.js. y cuenta con modo oscuro",
+    summary: "Aplicación de diccionario de inglés con definiciones, pronunciación y ejemplos provenientes de una API pública. Desarrollada con React.js usando Next.js",
+    technologies: [
+      'HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'React Hook', 'Axios'
+    ],
+    images: [
+      'https://raw.githubusercontent.com/JoseCortezz25/dictionary-app/main/Screenshot.png',
+      'https://raw.githubusercontent.com/JoseCortezz25/dictionary-app/main/Screenshot.png2',
+    ],
+    repo: "https://github.com/JoseCortezz25/SimpleWeatherApp",
+    page: "https://simple-weather-app-cyan.vercel.app/"
+  }
 ]
 
 export const tools = [
