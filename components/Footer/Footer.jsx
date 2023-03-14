@@ -42,7 +42,7 @@ const Footer = () => {
             <Image src={githubIcon} alt="" />
           </a>
           <a
-            href="https://www.linkedin.com/in/alfonsochavarrocortes"
+            href="https://linkedin.com/in/alfonsochavarrocortes"
             className={styles["footer__social-icon"]}
             target="_blank"
             rel="noreferrer"
