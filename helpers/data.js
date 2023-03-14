@@ -83,8 +83,8 @@ export const projects = [
       'https://raw.githubusercontent.com/JoseCortezz25/dictionary-app/main/Screenshot.png',
       'https://raw.githubusercontent.com/JoseCortezz25/dictionary-app/main/Screenshot.png2',
     ],
-    repo: "https://github.com/JoseCortezz25/SimpleWeatherApp",
-    page: "https://simple-weather-app-cyan.vercel.app/"
+    repo: "https://github.com/JoseCortezz25/dictionary-app",
+    page: "https://dictionary-application.vercel.app/"
   }
 ]
 
@@ -134,7 +134,7 @@ export const languages = [
   },
   {
     id: "4",
-    name: "React",
+    name: "React.js",
   },
   {
     id: "5",
@@ -142,7 +142,7 @@ export const languages = [
   },
   {
     id: "6",
-    name: "NodeJS",
+    name: "Node.js",
   },
   {
     id: "7",
@@ -155,5 +155,9 @@ export const languages = [
   {
     id: "9",
     name: "Python",
+  },
+  {
+    id: "10",
+    name: "Next.js",
   },
 ];
